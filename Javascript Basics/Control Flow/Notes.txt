@@ -1,0 +1,14 @@
+Equality Operators
+
+var x = 99;
+
+x == "99" //true
+x === "99" //false  triple equals does not use type coercion
+
+Type Coercion = converts to another type
+
+
+
+==============================================
+
+
