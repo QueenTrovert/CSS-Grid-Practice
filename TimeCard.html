@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Time Card</title>
+    <link rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/TimeCard.css">
+</head>
+<body>    
+    <div class="content">
+        <div class="nav">
+            <div class="nav-brand">
+                <h1>My Time Card</h1>
+            </div>
+        </div>
+    
+        <div class="datesNav">
+            <input type="date" id="dateFrom"> > <input type="date" id="dateTo">
+        </div>
+        <div class="input-hours">
+            <ul>
+                <li><input type="time"></li>
+            </ul>
+
+        </div>
+        
+        <div class="time-table">
+            <table class="table w-50">
+                <thead>
+                    <tr>
+                        <th class = "d-row-sm">Date</th>
+                        <th>Time Started</th>
+                        <th>Time Ended</th>
+                        <th>Time Elapsed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>August 1, 2020</th>
+                        <td>8:00 AM</th>
+                        <td>12 PM</th>
+                        <td>4 hrs : 00 mins</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="TimeCard.js"></script>
+</body>
+</html>
